@@ -1,0 +1,26 @@
+#include <stdio.h>
+
+int main()
+{
+    int i = 52;
+    printf("The integer: %d \n", i);
+    
+    float f = 2.1486;
+    printf("The float: %f \n", f);
+    
+    char c = 'b';
+    printf("The character: %c \n", c);
+    
+    char sh[] = "cartoon";
+    printf("The Name is: %s\n",sh);
+    
+    char s[10];
+    scanf("%s",&s);
+    printf("The String is: %s \n",s);   
+    
+    int j;
+    scanf("%d",&j);
+    printf("The number is: %d",j);
+    
+   return 0;
+}
